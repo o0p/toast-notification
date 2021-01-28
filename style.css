@@ -15,3 +15,14 @@ body {
   overflow: hidden;
   margin: 0;
 }
+
+.btn {
+  background-color: #ffa600;
+  color: #000000;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
