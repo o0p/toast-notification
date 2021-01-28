@@ -7,3 +7,12 @@ const msg = [
     'Message 3',
     'Message 4',
 ];
+
+button.addEventListener('click', () => createNotification());
+
+function createNotification() {
+    const notif = document.createElement('div');
+    notif.classList.add('toast');
+    notif.innerText = getRandomMsg;
+}
+
